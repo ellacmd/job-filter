@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/job-filterapp-made-with-react-H15--XONq)
-- Live Site URL: [Add live site URL here](https://filterjob.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/job-filterapp-made-with-react-H15--XONq]
+- Live Site URL: [https://filterjob.netlify.app/]
 
 ## My process
 
