@@ -1,0 +1,127 @@
+.job-listing {
+  max-width: 1110px;
+  width: 80vw;
+  height: 152px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 40px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  position: relative;
+}
+div.feature {
+  border-left: 5px solid #5ca5a5;
+  border-radius: 5px 0px 0px 5px;
+}
+.listing-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-box {
+  display: flex;
+  gap: 24px;
+}
+.listing-info {
+  width: 266px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.title:hover {
+  color: #5ca5a5;
+}
+.company-name {
+  color: #5ca5a5;
+  font-size: 14px;
+}
+.tag {
+  font-size: 11px;
+  padding: 3px 5px;
+  border-radius: 10px;
+  color: #fff;
+}
+.new-tag {
+  background-color: #5ca5a5;
+}
+.featured-tag {
+  background-color: #000;
+}
+.info {
+  color: #7c8f8f;
+  font-size: 15px;
+}
+.circle-seperator {
+  width: 4px;
+  height: 4px;
+  background-color: #7c8f8f;
+  border-radius: 100%;
+}
+.category-container {
+  max-width: 400px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.category {
+  font-size: 13px;
+  background-color: hsl(180, 52%, 96%);
+  color: #5ca5a5;
+  font-weight: 700;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.category:hover {
+  background-color: #5ca5a5;
+  color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+  .job-listing {
+    max-width: 900px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .job-listing {
+    height: 210px;
+    margin-bottom: 20px;
+    padding: 0px 15px;
+  }
+  .listing-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .company-logo img {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: -20px;
+    left: 15px;
+  }
+  .info-box {
+    gap: 0;
+  }
+  .category-container {
+    gap: 16px;
+  }
+}

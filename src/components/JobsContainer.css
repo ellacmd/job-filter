@@ -1,0 +1,8 @@
+.jobs-container{
+    background-color: hsl(180, 52%, 96%);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    padding: 76px 0 120px 0;
+}
